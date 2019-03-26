@@ -1,4 +1,4 @@
-# Calendar Creator
+﻿# Calendar Creator
 
 Word Macro to auto fill calendar tables.
 
@@ -54,6 +54,7 @@ Word Macro to auto fill calendar tables.
   </table>
 </td></tr>
 </table>
+
 * First row contains: a month name and a year (optionally).
 * Default year is read from document's first paragraph, next from system clock.
 * Month names are compared with system settings. Week order is read from system calendar.
@@ -96,6 +97,7 @@ Call FillCalendarTables(ColorSun:=&H9B9BFC, ColorSat:=wdColorGray10)
     <td width="128"></td>
   </tr>
 </table>
+
 * Icons / images for each event must be placed as InlineShapes (second row).
 * Dates are read by CDate(), all dates accepted by this function can be used.
 * Default year is read from system clock (CDate() functionality).
